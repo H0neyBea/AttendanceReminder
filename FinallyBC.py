@@ -1,0 +1,20 @@
+import time
+reminder = UserWarning("Your attendance is due in five minutes!")
+import winsound
+winsound.PlaySound("Attendance.wav", winsound.SND_ASYNC)
+print ("Your attendance is due in five minutes!")
+time.sleep(30)
+print ("Have you completed your attendance?")
+time.sleep(30)
+print ("Have you completed your attendance?")
+time.sleep(30)
+print ("Have you completed your attendance?")
+time.sleep(30)
+print ("Have you completed your attendance?")
+time.sleep(30)
+print ("Have you completed your attendance?")
+time.sleep(30)
+print ("Have you completed your attendance?")
+time.sleep(30)
+print ("Please submit now, Thank You")
+#This program will provide a thread of reminders for teachers to complete their attendance
